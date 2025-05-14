@@ -28,7 +28,9 @@
                 tag.</p>
         </section>
         <section id="section_tzq_3wn_zcc">
-            <title>Placing Elements</title>
+            <title>Plac<?oxy_insert_start author="cburright" timestamp="20250514T222314+0000"?>e<?oxy_insert_end?><?oxy_delete author="cburright" timestamp="20250514T222313+0000" content="ing"?>
+                <?oxy_insert_start author="cburright" timestamp="20250514T222254+0000"?>an
+                <?oxy_insert_end?>Element<?oxy_delete author="cburright" timestamp="20250514T222256+0000" content="s"?></title>
             <p>Now that you understand how syntax works, you can practice inserting elements into a
                 document. There are two types of elements: block and inline. Block elements are
                 things like paragraphs, lists, and tables that make up the structure of the topic.
@@ -48,13 +50,17 @@
                 accurately see where your cursor is placed before inserting an element.</p>
         </section>
         <section id="section_xcg_5zn_zcc">
-            <title>Editing Attributes</title>
+            <title>Edit<?oxy_delete author="cburright" timestamp="20250514T222304+0000" content="ing"?><?oxy_insert_start author="cburright" timestamp="20250514T222306+0000"?>
+                an<?oxy_insert_end?>
+                Attribute<?oxy_delete author="cburright" timestamp="20250514T222310+0000" content="s"?></title>
             <p>In DITA, attributes allow editors to modify aspects of an element. Things like color,
                 size, and link destinations are all handled by attributes. To understand this
                 better, look at the sample figure of the Marvell logo below.</p>
             <fig id="fig_knt_314_zcc">
                 <title>Marvell Logo</title>
-                <image id="image_b4v_j14_zcc" href="../graphics/sample-image-01.svg"/>
+                <?oxy_comment_start author="cburright" timestamp="20250514T222232+0000" comment="Image isn&apos;t showing up"?>
+                <image id="image_b4v_j14_zcc" href="../graphics/sample-image-01.svg"
+                /><?oxy_comment_end?>
             </fig>
             <p>Click on the image element and look in the attributes window. Because images in DITA
                 topics are referenced rather than embedded, notice that the path to the image is
@@ -118,3 +124,4 @@
         </table>
     </body>
 </topic>
+<?oxy_options track_changes="on"?>
