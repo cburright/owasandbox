@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="training_topic">
+    <title>Basic Editing</title>
+    <body>
+        <p>This topic is designed to train you on basic editing functions within a DITA topic using
+            the Oxygen XML Editor. Along with instructions on how to perform these functions, there
+            are places within this topic where you will do exercises to test your learning. Feel
+            free to modify the topic for these exercises.</p>
+        <section id="section_ksc_y5n_zcc">
+            <title>DITA Syntax</title>
+            <p>Just like other programming languages, DITA has a proper syntax (or hierarchy) that
+                must be preserved in order for the structure of the topic to remain valid. In
+                application, this means all elements have rules defining how they can be used.</p>
+            <p>To see this in action, look at the bulleted list (or ul) element below. Notice that
+                the paragraph (or p) element has a red underline due to it not being allowed within
+                the ul element.</p>
+            <ul id="ul_cs5_jvn_zcc">
+                <p>This element is not allowed to be here.</p>
+                <li>This element is allowed to be here.</li>
+            </ul>
+            <p>Another easy way to tell if your DITA isn't valid is by looking for red bars next to
+                the scroll bar on the right side of the editing window. Hovering over this bar with
+                your cursor allows a pop-up window to appear describing the invalid DITA.</p>
+            <p><i>Exercise</i>: Delete the invalid p element above. Notice how the DITA becomes
+                valid by doing this. Also, note that when you place your cursor within the ul tag,
+                the elements window changes to display only the list of allowed elements within this
+                tag.</p>
+        </section>
+        <section id="section_tzq_3wn_zcc">
+            <title>Placing Elements</title>
+            <p>Now that you understand how syntax works, you can practice inserting elements into a
+                document. There are two types of elements: block and inline. Block elements are
+                things like paragraphs, lists, and tables that make up the structure of the topic.
+                Inline elements are things like bold, italics, or superscript that modify parts of
+                block elements to highlight certain information. Let's practice by inserting one of
+                the most basic elements, a paragraph (p) element.</p>
+            <p><i>Exercise</i>: Place a paragraph element immediately following this paragraph. Do
+                this by placing your cursor immediately following the end bound of the current p
+                element, navigating to the Elements window and selecting <b>p</b>.</p>
+            <p>If done correctly, your empty paragraph tag should be immediately preceding this
+                sentence. Well done! Now populate it with some text, and apply the b element by
+                selecting some of the text and choosing the <b>b</b> element from the Elements
+                window.</p>
+            <p>You now have a basic understanding of inserting elements into a topic. When inserting
+                elements, remember to verify the insertion point to avoid creating invalid
+                structure. A good way to prevent this is my turning element boundary tags on to
+                accurately see where your cursor is placed before inserting an element.</p>
+        </section>
+        <section id="section_xcg_5zn_zcc">
+            <title>Editing Attributes</title>
+            <p>In DITA, attributes allow editors to modify aspects of an element. Things like color,
+                size, and link destinations are all handled by attributes. To understand this
+                better, look at the sample figure of the Marvell logo below.</p>
+            <fig id="fig_knt_314_zcc">
+                <title>Marvell Logo</title>
+                <image id="image_b4v_j14_zcc" href="../graphics/sample-image-01.svg"/>
+            </fig>
+            <p>Click on the image element and look in the attributes window. Because images in DITA
+                topics are referenced rather than embedded, notice that the path to the image is
+                defined in the href attribute. Additionally, all elements receive unique IDs when
+                created to properly index them across the topic. This value is also defined in the
+                attributes of the element.</p>
+            <p><i>Exercise</i>: Practice altering attributes by changing the size of the sample
+                image above. To do this, select the image element, then enter a value into the
+                    <b>width</b> attribute between 1-18cm (ex. 5cm).</p>
+            <p>In our documentation, attributes also control how conditional text is applied through
+                use of the <b>audience</b> attribute. In a ditaval file unique to the project,
+                various audiences are defined (e.g. internal, Nokia, Toshiba). Within a topic,
+                authors then edit the audience attribute for any element that needs to be
+                conditionalized. When creating an output, an author can then choose which
+                audience(s) they want to appear in the output. The processing then only shows those
+                elements which contain the chosen audience values within their audience
+                attribute.</p>
+        </section>
+        <table frame="all" rowsep="1" colsep="1" id="table_wjg_l2t_fdc">
+            <title>title</title>
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>sample</entry>
+                        <entry>sample</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>sample</entry>
+                        <entry>sample</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="training_topic">
+    <title>Editor Setup</title>
+    <body>
+        <p>This topic is designed to train you on how to setup your Oxygen editor to effectively
+            work in DITA.</p>
+        <p>First, make sure you are in the DITA perspective by clicking the <b>DITA Perspective</b>
+            icon in the top-right side of the window.</p>
+        <fig id="fig_vpp_tpn_zcc">
+            <title>DITA Perspective Icon</title>
+            <image id="image_xvk_5pn_zcc" href="../graphics/dita-pers-01.svg" width="8cm"/>
+        </fig>
+        <p>Next, ensure you are in <b>Author Mode </b>by clicking the Author tab near the
+            bottom-left of the window.</p>
+        <fig id="fig_xhc_fqn_zcc">
+            <title>Author Mode Tab</title>
+            <image id="image_csx_fqn_zcc" href="../graphics/auth-mode-01.svg" width="6cm"/>
+        </fig>
+        <p>The next step is to ensure your Attributes and Elements windows are docked in your editor
+            window. This allows you to quickly see a list of allowed elements and make any necessary
+            edits to attributes. Typically, these windows are automatically docked to the right side
+            of the editor window. If they are not:</p>
+        <ol id="ol_sf5_rqn_zcc">
+            <li>Click <b>Window > Show View</b>.</li>
+            <li>Select <b>Elements</b>. The elements window should now appear.</li>
+            <li>Click <b>Window > Show View</b>.</li>
+            <li>Select <b>Attributes</b>. The attributes window should now appear.</li>
+        </ol>
+        <p>How you decide to organize your editor window is up to you. Provided below is a sample
+            way of organizing the editor window with the DITA Maps Manager docked to the left side
+            of the window, the editor in the middle, and the Attributes and Elements windows docked
+            to the right side.</p>
+        <fig id="fig_jmp_krn_zcc">
+            <title>Editor Layout Example</title>
+            <image id="image_myv_ksn_zcc" href="../graphics/editor-layout-ex-01.svg" width="18cm"/>
+        </fig>
+        <p>The final thing to do is to decide on how you want to view (or not view) element tags in
+            the editing window. Typically, it is best to turn tags on in some form to be able to
+            clearly see where element bounds begin and end. This allows you to accurately edit
+            elements and know where to insert new ones.</p>
+        <p>Clicking the <b>Tags</b> button in the upper-left of the editing window gives you many
+            options for displaying element tags.</p>
+        <fig id="fig_hdh_htn_zcc">
+            <title>Tags Menu</title>
+            <image id="image_wb5_3tn_zcc" href="../graphics/tags-menu-01.svg"/>
+        </fig>
+        <p>The <b>Full Tags with Attributes</b> option is not recommended as it displays lots of
+            extra information that isn't needed. The <b>Full Tags</b> option displays both block and
+            inline tags, providing a good view of all active elements in your document. There are
+            also options to display just block or inline tags, or to simply view a symbol indicating
+            an element bound without displaying the actual element type. Experiment with the view
+            options and decide which is write for your editing habits.</p>
+    </body>
+</topic>
