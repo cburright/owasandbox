@@ -24,8 +24,12 @@
                 your cursor allows a pop-up window to appear describing the invalid DITA.</p>
             <p><i>Exercise</i>: Delete the invalid p element above. Notice how the DITA becomes
                 valid by doing this. Also, note that when you place your cursor within the ul tag,
-                the elements window changes to display only the list of allowed elements within this
-                tag.</p>
+                the elements window changes to display only the list of allowed elements
+                withi<?oxy_comment_start author="kbarkis-marvell" timestamp="20250515T192512+0000" comment="comment"?>n
+                this tag.<?oxy_comment_end?></p>
+            <?oxy_insert_start author="kbarkis-marvell" timestamp="20250515T192452+0000"?>
+            <p>test test test</p>
+            <?oxy_insert_end?>
         </section>
         <section id="section_tzq_3wn_zcc">
             <title>Plac<?oxy_insert_start author="cburright" timestamp="20250514T222314+0000"?>e<?oxy_insert_end?><?oxy_delete author="cburright" timestamp="20250514T222313+0000" content="ing"?>
